@@ -26,7 +26,7 @@ int main(){
         }
         
     }
-}
+
     return 0;
 
     int main(){
@@ -38,6 +38,8 @@ int main(){
             }
 
         }
+    }
+
         return 0;
 
     int main(){
@@ -51,22 +53,6 @@ int main(){
             }
 
         }
-        return 0;
-
-        int main(){
-            for (int m = -8; m <= 8; m++) {
-                for (int n = -15; n <= 15; n++) {
-                    int o = sqrt(m * m + n * n);
-                    if (o * o == m * m + n * n && o <= 17) {
-                        std::cout << m << " - " << n << " - " << o << std::endl;
-                    }
-
-                }
-
-            }
-        }
-        return 0;
-
     }
-    return 0;
-    }
+
+        return 0;
