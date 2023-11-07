@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+
 
 int main ()
 {
@@ -10,7 +10,10 @@ int main ()
         std::cout << i << " - " << j << " - " << c << std::endl;
 
     return 0;
+}
+    int main()
     {
+
         int a = 6;
         int b = 8;
         int c = 10;
