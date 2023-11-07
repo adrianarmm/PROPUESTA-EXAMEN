@@ -30,4 +30,37 @@ int main() {
     return 0;
 
 
+    int main(){
+        for (int g = -5; g <= 5; g++) {
+            for (int h = -12; h <= 12; h++) {
+                int i = sqrt(g * g + h * h);
+                if (i * i == g * g + h * h && i <= 13) {
+                    std::cout << g << " - " << h << " - " << i << std::endl;
+                }
+
+            }
+        }
+
+        return 0;
+
+        int main(){
+            for (int m = -8; m <= 8; m++) {
+                for (int n = -15; n <= 15; n++) {
+                    int o = sqrt(m * m + n * n);
+                    if (o * o == m * m + n * n && o <= 17) {
+                        std::cout << m << " - " << n << " - " << o << std::endl;
+                    }
+
+                }
+
+            }
+        }
+        return 0;
+
+
+
+
+
+
+
 
