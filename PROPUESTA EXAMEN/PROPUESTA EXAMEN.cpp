@@ -42,7 +42,5 @@ int main() {
             }
 
         }
+    return 0;
 }
-return 0;
-}
-// Path: PROPUESTA%20EXAMEN/PROPUESTA%20EXAMEN.cpp
