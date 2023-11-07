@@ -11,9 +11,9 @@ int main ()
 
     return 0;
     {
-        int a = 6
-        int b = 8
-        int c = 10
+        int a = 6;
+        int b = 8;
+        int c = 10;
         if (c * c == a * a + b * b && c)
             std::cout << a << " - " << b << " - " << c << std::endl;
     }
