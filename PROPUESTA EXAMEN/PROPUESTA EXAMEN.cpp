@@ -11,5 +11,17 @@ int main() {
 
         }
     }
-    return 0;
+int main() {
+    for (int d = -6; d <= 6; d++) {
+        for (int e = -8; e <= 8 ; e++) {
+            int f = sqrt(d * d + e * e);
+            if (f * f == d * d + e * e && f <= 10) {
+                std::cout << d << " - " << e << " - " << f << std::endl;
+            }
+            
+        }
+        
+    }
+
+    
 }
